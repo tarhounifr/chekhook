@@ -1,0 +1,10 @@
+.rating{
+    background-color: white;
+    width: 10rem;
+    display: flex;
+    border-radius: 25px;
+     justify-content: center;
+  flex-wrap: wrap;
+  justify-self: center  ;
+
+}
