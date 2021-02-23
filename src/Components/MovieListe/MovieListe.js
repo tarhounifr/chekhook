@@ -8,7 +8,7 @@ const MovieListe = ({ movies, search, rating }) => {
             {movies
                 .filter(movie => movie.title.toLowerCase().includes(search.toLowerCase())
                     &&
-                    movie.rating >= rating
+                    movie.rating >= rating.rating
                 )
                 .map(movie =>
                     <MovieCard movie={movie} key={movie.id} />)}

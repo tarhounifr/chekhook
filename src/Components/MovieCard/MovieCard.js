@@ -11,7 +11,7 @@ const MovieCard = ({ movie, movierating }) => {
                 <Card.Body>
                     <Card.Title>{movie.title}</Card.Title>
                     <Card.Text>
-                        <Rating filterrating={false} movierating={movie.Rating} />
+                        <Rating filterrating={false} movierating={movie.rating} />
                     </Card.Text>
                 </Card.Body>
             </Card>
